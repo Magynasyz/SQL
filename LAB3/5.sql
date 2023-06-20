@@ -1,0 +1,1 @@
+SELECT p_type,COUNT(p_type) FROM part WHERE p_type LIKE '%NICKEL' GROUP BY p_type ORDER BY p_type ASC;
