@@ -1,0 +1,62 @@
+Complete this report.,,,;;;;
+Task#1 in Lab8, Section 1.1.,,,;;;;
+write the number of tuples in each table (e.g. 100),,,;;;;
+Consider your current TPC-H database.,,,;;;;
+#;table name   number of tuples;;;
+1;region;5;;
+2;nation;25;;
+3;supplier;100;;
+4;customer;1500;;
+5;part;2000;;
+6;partsupp;8000;;
+7;orders;15000;;
+8;lineitem;60175;;
+;;;;
+Task#2 and 5 in Lab8, Section 1.1.,,,;;;;
+report the speed (in seconds) of each query (e.g. 15sec),,,;;;;
+Consider your current TPC-H database.,,,;;;;
+Lab5 queries ;;speed in seconds ;;speed in seconds
+;;(no index);;(with indexes)
+6;;0.212;;0.046
+7;;0.670;;0.430
+8;;0.004;;0.003
+9;;0.010;;0.009
+10;;0.849;;0.541
+;;;;
+Task#3 and 6 in Lab8, Section 1.1.,,,;;;;
+report the size (in megabytes) of the TPC-H database.,,,;;;;
+Consider your current TPC-H database.,,,;;;;
+database size;;database size;;
+(no index);;(with indexes);;
+10.750;;12.5703125;;
+;;;;
+Task#2 in Lab8, Section 1.2.,,,;;;;
+write the number of tuples in each table (e.g. 100),,,;;;;
+Consider your new TPC-H database.,,,;;;;
+#;table name   number of tuples;;;
+1;region;5;;
+2;nation;25;;
+3;supplier;9000;;
+4;customer;135000;;
+5;part;180000;;
+6;partsupp;720000;;
+7;orders;1350000;;
+8;lineitem;5400556;;
+;;;;
+Task#3 and 6 in Lab8, Section 1.2.,,,;;;;
+report the speed (in seconds) of each query (e.g. 15sec),,,;;;;
+Consider your new TPC-H database.,,,;;;;
+Lab5 queries;;speed in seconds ;;speed in seconds 
+;;(no index);;(with indexes)
+6;;65.838;;46.424
+7;;354.353;;295.987
+8;;0.602;;0.011
+9;;3.884;;4.026
+10;;784.840;;216.197
+;;;;
+Task#4 and 7 in Lab8, Section 1.2.,,,;;;;
+report the size (in megabytes) of the TPC-H database.,,,;;;;
+Consider your new TPC-H database.,,,;;;;
+database size;;database size;;
+(no index);;(with indexes);;
+986.34765625;;1167.3476562;;
